@@ -6,45 +6,43 @@ This code creates a personal portfolio website for Kevin Joseph, highlighting hi
 
 1. **HTML Structure**
 
-   * The document is structured using semantic HTML5 elements like `<header>`, `<section>`, and `<nav>`.
-   * The content is divided into various sections: Home, About, Services, Portfolio, and Contact.
+* The document is structured using semantic HTML5 elements like `<header>`, `<section>`, and `<nav>`.
+* The content is divided into various sections: Home, About, Services, Portfolio, and Contact.
 
-3. **Head Section**
+2. **Head Section**:
 
-   * The `<head>` section includes the meta tags for character set (`UTF-8`) and viewport settings to ensure responsiveness.
-   * The Font Awesome library is linked via CDN to provide icons used throughout the website.
+* The `<head>` section includes the meta tags for character set (`UTF-8`) and viewport settings to ensure responsiveness.
+* The Font Awesome library is linked via CDN to provide icons used throughout the website.
 
-5. **Header and Navigation**
+3. **Header and Navigation**:
 
-   * The `<header>` element contains the navigation bar (`<nav>`) with links to different sections of the page. The menu icon (`fa-bars`) is designed to be used for a mobile-friendly collapsible menu.
-   * The logo and navigation links are styled and positioned for a clean, responsive header.
+* The `<header>` element contains the navigation bar (`<nav>`) with links to different           sections of the page. The menu icon (`fa-bars`) is designed to be used for a mobile-           friendly collapsible menu.
+*  The logo and navigation links are styled and positioned for a clean, responsive header.
 
-7. **Home Section**
+4. **Home Section**:
 
-   * The `<section>` with class "home" serves as the introductory area, displaying a welcome message, Kevin Joseph's name, and a brief description of his role.
-   * Social media links, including LinkedIn, are provided, and there is a button to download Kevin's CV.
+* The `<section>` with class "home" serves as the introductory area, displaying a welcome       message, Kevin Joseph's name, and a brief description of his role.
+* Social media links, including LinkedIn, are provided, and there is a button to download       Kevin's CV.
 
-9. **About Section**
+5. **About Section**:
+* The "About" section gives a brief introduction to Kevin Joseph. It includes an image and       descriptive text about his background.
 
-   * The "About" section gives a brief introduction to Kevin Joseph. It includes an image and descriptive text about his background.
+6. **Services Section**:
+* The "Services" section lists the professional services offered by Kevin, such as Web         Development, MS Excel, and SQL.
+* Each service is represented with a Font Awesome icon and includes a brief description.
 
-11. **Services Section**
+7. **Portfolio Section**:
 
-    * The "Services" section lists the professional services offered by Kevin, such as Web Development, MS Excel, and SQL.
-   * Each service is represented with a Font Awesome icon and includes a brief description.
+* The "Portfolio" section showcases Kevin's latest projects. Each project is displayed with an image and a brief description that appears on hover.
+* The projects highlight various skills, such as Web Design, Data Science, Web Development, and AI Prediction.
 
-13. **Portfolio Section**
+8. **Icons and Styling**:
 
-    * The "Portfolio" section showcases Kevin's latest projects. Each project is displayed with an image and a brief description that appears on hover.
-   * The projects highlight various skills, such as Web Design, Data Science, Web Development, and AI Prediction.
+* The website utilizes Font Awesome icons for visual appeal and functionality. These icons enhance the user interface by making navigation and interaction more intuitive.
 
-15. **Icons and Styling**
+9. **External Files**:
 
-    * The website utilizes Font Awesome icons for visual appeal and functionality. These icons enhance the user interface by making navigation and interaction more intuitive.
-
-17. **External Files**
-
-    * The CSS for the website's styling is linked externally (`styles.css`), allowing for a clean separation of content and design.
+* The CSS for the website's styling is linked externally (`styles.css`), allowing for a clean separation of content and design.
 
 # CSS Code Explanation:
 
@@ -156,4 +154,21 @@ items.
   ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 * Effect: As the user scrolls, various elements (e.g., text, images) will fade in or slide into view from different directions, creating a dynamic and visually appealing effect.
-  
+
+4. **Typing Animation**:
+
+* **Typing Effect**:
+       The JavaScript code creates a typing animation for a specific element, where text appears to be typed out one character at a time.
+* **Library Used**:
+   The code might use the Typed.js library, which is a popular tool for creating typing animations.
+* **Code Implementation**:
+    ```javascript
+    const typed = new Typed('.multiple-text', {
+    strings: ['Web Developer', 'Data Scientist', 'Freelancer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+    });
+* **Effect**:
+   The words "Web Developer," "Data Scientist," and "Freelancer" appear one by one in a typing animation, adding an interactive and dynamic element to the website's home section.
