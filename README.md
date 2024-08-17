@@ -3,10 +3,10 @@
 This code creates a personal portfolio website for Kevin Joseph, highlighting his skills, services, and projects.
 
 1. HTML Structure
-The document is structured using semantic HTML5 elements like <header>, <section>, and <nav>.
+The document is structured using semantic HTML5 elements like '<header>', '<section>', and '<nav>'.
 The content is divided into various sections: Home, About, Services, Portfolio, and Contact.
 2. Head Section
-The <head> section includes the meta tags for character set (UTF-8) and viewport settings to ensure responsiveness.
+The '<head>' section includes the meta tags for character set ('UTF-8') and viewport settings to ensure responsiveness.
 The Font Awesome library is linked via CDN to provide icons used throughout the website.
 3. Header and Navigation
 The <header> element contains the navigation bar (<nav>) with links to different sections of the page. The menu icon (fa-bars) is designed to be used for a mobile-friendly collapsible menu.
