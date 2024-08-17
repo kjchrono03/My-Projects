@@ -2,7 +2,7 @@
 # Portfolio Website Code Explanation
 This code creates a personal portfolio website for Kevin Joseph, highlighting his skills, services, and projects.
 
-# 1. HTML Structure
+1. HTML Structure
 The document is structured using semantic HTML5 elements like <header>, <section>, and <nav>.
 The content is divided into various sections: Home, About, Services, Portfolio, and Contact.
 2. Head Section
